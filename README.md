@@ -12,11 +12,11 @@ Site dynamique qui permettra l'ajout de guides et informations relatives au MMOR
 
 ## Guides
 Les différents guides porteront dans un premier temps sur une liste de donjons
-    * A Realm Reborn
-    * Heavensward
-    * Stormblood
-    * Shadowbringer
-    * Endwalker
-    * Dawntrail
+* A Realm Reborn
+* Heavensward
+* Stormblood
+* Shadowbringer
+* Endwalker
+* Dawntrail
 
 Chaque ajout proposera des façons de réaliser les donjons et les astuces. Notamment les erreurs à ne pas commettre ou encore les conseils à suivre
