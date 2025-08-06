@@ -1,4 +1,4 @@
-# FinalFantasyxLogHorizon
+# FinalFantasy : LogHorizon
 Site d'infos en Angular et NodeJs
 ## Techno 
 * Anagular 
