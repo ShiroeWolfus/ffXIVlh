@@ -61,7 +61,30 @@ pages/
 
 ## Roadmap
 
-Voir la feuille de route dans ce README.
+### Phase 1 : Stabilisation
+- Uniformisation des noms de fichiers et structure.
+- Refactoring du Router et des composants principaux.
+- Centralisation de la gestion des données.
+
+###Phase 2 : Fonctionnalités
+- Navigation SPA complète.
+- Gestion des erreurs et feedback utilisateur.
+- Pagination et recherche.
+
+### Phase 3 : Qualité
+- Ajout de tests unitaires.
+- Mise en place des outils de qualité de code.
+- Documentation complète.
+
+### Phase 4 : UI/UX
+- Amélioration du responsive.
+- Thème sombre/clair.
+- Animations et finitions graphiques.
+
+### Phase 5 : Déploiement
+- Script de build.
+- Documentation pour contributeurs.
+- Publication et maintenance.
 
 ## Contribution
 
