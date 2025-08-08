@@ -66,7 +66,7 @@ pages/
 - Refactoring du Router et des composants principaux.
 - Centralisation de la gestion des données.
 
-###Phase 2 : Fonctionnalités
+### Phase 2 : Fonctionnalités
 - Navigation SPA complète.
 - Gestion des erreurs et feedback utilisateur.
 - Pagination et recherche.
