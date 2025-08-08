@@ -1,22 +1,79 @@
-# FinalFantasy : LogHorizon
-Site d'infos en Angular et NodeJs
-## Techno 
-* Anagular 
-* Typescript
-* NodeJS
-## Lien notion pour suivre l'avancée du projet
-[lien à ajouter vers le notion]
+# FFXLH - Final Fantasy XIV : Log Horizon
 
-## Fonctionnalités 
-Site dynamique qui permettra l'ajout de guides et informations relatives au MMORPG Final Fantasy XIV
+## Présentation
 
-## Guides
-Les différents guides porteront dans un premier temps sur une liste de donjons
-* A Realm Reborn
-* Heavensward
-* Stormblood
-* Shadowbringer
-* Endwalker
-* Dawntrail
+FFXLH est un portail communautaire pour les joueurs de Final Fantasy XIV, proposant actualités, guides, événements et ressources autour du jeu. Le projet est une Single Page Application (SPA) en JavaScript moderne, avec une architecture modulaire et des données simulées en JSON.
 
-Chaque ajout proposera des façons de réaliser les donjons et les astuces. Notamment les erreurs à ne pas commettre ou encore les conseils à suivre
+## Fonctionnalités principales
+
+- Accueil dynamique avec dernières news, événements et guides.
+- Navigation sans rechargement de page (SPA).
+- Composants réutilisables (Header, Footer, Cards).
+- Données chargées dynamiquement depuis des fichiers JSON.
+- Responsive design (Bootstrap).
+- Prévu pour être facilement migré vers un framework moderne (Angular, React).
+
+## Structure du projet
+
+```
+index.html
+assets/
+  css/
+    main.css
+    components/
+  js/
+    main.js
+    components/
+      Header.js
+      Footer.js
+      Router.js
+    pages/
+      HomePage.js
+      guide.js
+      knowledge.js
+    services/
+  images/
+  data/
+    news.json
+    events.json
+    guide.json
+components/
+  header.html
+  footer.html
+  news-card.html
+pages/
+  about.html
+  community.html
+  ...
+```
+
+## Installation & Lancement
+
+1. Cloner le dépôt
+2. Ouvrir `index.html` dans un navigateur moderne
+
+## Développement
+
+- Les composants JS sont dans `assets/js/components/`
+- Les pages dynamiques sont dans `assets/js/pages/`
+- Les données sont dans `assets/data/`
+- Le routage est géré par `assets/js/components/Router.js`
+
+## Roadmap
+
+Voir la feuille de route dans ce README.
+
+## Contribution
+
+1. Forkez le projet
+2. Créez une branche (`feature/ma-fonctionnalite`)
+3. Commitez vos modifications
+4. Ouvrez une Pull Request
+
+## Licence
+
+Projet open-source à but non commercial, inspiré de l’univers FFXIV.
+
+---
+
+**Contact** : Shiroe Wolfus
